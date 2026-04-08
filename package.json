@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "tailwindcss -i ./tailwind.css -o ./styles.css --watch"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
     "tailwindcss": "^4.0.0",
-    "@tailwindcss/cli": "^4.0.0"
+    "vite": "^7.0.0"
   }
 }
 
