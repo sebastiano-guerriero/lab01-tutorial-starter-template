@@ -29,6 +29,8 @@
 }
 
 @theme {
+  --font-primary: ui-sans-serif, system-ui, sans-serif;
+
   --color-black: #000000;
 
   --shadow-intensity: 1;
