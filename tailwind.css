@@ -7,6 +7,10 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  *, *:before, *:after {
+    corner-shape: superellipse(1.33);
+  }
+
   button:not(:disabled),
   [role="button"]:not(:disabled) {
     cursor: pointer;
@@ -66,4 +70,8 @@
 @utility mask-clip-padding-only {
   mask: linear-gradient(black, black) content-box, linear-gradient(black, black);
   mask-composite: exclude;
+}
+
+@utility corner-round {
+  corner-shape: round;
 }
